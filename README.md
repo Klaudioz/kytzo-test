@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kytzo - SaaS Marketing Website
+
+A modern, responsive marketing website for Kytzo, a fictional SaaS company. Built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- **Responsive Design**: Looks great on all devices, from mobile to desktop
+- **Modern UI**: Clean, professional design with smooth animations
+- **Performance Optimized**: Fast loading times and optimized assets
+- **SEO Friendly**: Built with best practices for search engine optimization
+- **Accessibility**: Follows WCAG guidelines for maximum accessibility
+
+## Pages
+
+- **Home**: Showcase of the product with key features and benefits
+- **About**: Company information, story, mission, and team members
+- **Blog**: Articles and insights from the company
+- **FAQ**: Frequently asked questions with accordion functionality
+- **Contact**: Contact form and company information
+
+## Components
+
+- **Header**: Navigation with mobile menu
+- **Footer**: Links, social media, and contact information
+- **Hero**: Main banner with call-to-action
+- **Features**: Highlight of product features
+- **Testimonials**: Customer testimonials carousel
+- **Team**: Team members carousel
+- **FAQ**: Accordion-style FAQ section
+- **CTA**: Call-to-action section
+
+## Technologies Used
+
+- **Next.js**: React framework for production
+- **TypeScript**: Type-safe JavaScript
+- **Tailwind CSS**: Utility-first CSS framework
+- **Framer Motion**: Animation library
+- **Swiper**: Touch slider for carousels
+- **Lucide React**: Icon library
+- **React Icons**: Additional icon library
+- **Headless UI**: Unstyled, accessible UI components
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Build for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Acknowledgements
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Design inspiration from various SaaS websites
+- Icons from Lucide React and React Icons
+- Placeholder images would need to be replaced with actual images in a production environment

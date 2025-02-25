@@ -1,0 +1,36 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="400" cy="300" r="250" fill="#F0F4FF" />
+  <circle cx="400" cy="300" r="200" fill="#E6EDFF" />
+  
+  <!-- Dashboard UI -->
+  <rect x="250" y="150" width="300" height="200" rx="10" fill="white" stroke="#4F46E5" stroke-width="2" />
+  <rect x="270" y="170" width="260" height="30" rx="5" fill="#F3F4F6" />
+  <rect x="270" y="210" width="120" height="80" rx="5" fill="#EEF2FF" />
+  <rect x="400" y="210" width="130" height="80" rx="5" fill="#EEF2FF" />
+  <rect x="270" y="300" width="260" height="30" rx="5" fill="#F3F4F6" />
+  
+  <!-- Charts and Graphs -->
+  <rect x="300" y="350" width="200" height="120" rx="10" fill="white" stroke="#4F46E5" stroke-width="2" />
+  <line x1="320" y1="420" x2="360" y2="380" stroke="#4F46E5" stroke-width="2" />
+  <line x1="360" y1="380" x2="400" y2="410" stroke="#4F46E5" stroke-width="2" />
+  <line x1="400" y1="410" x2="440" y2="370" stroke="#4F46E5" stroke-width="2" />
+  <line x1="440" y1="370" x2="480" y2="400" stroke="#4F46E5" stroke-width="2" />
+  <circle cx="320" cy="420" r="4" fill="#4F46E5" />
+  <circle cx="360" cy="380" r="4" fill="#4F46E5" />
+  <circle cx="400" cy="410" r="4" fill="#4F46E5" />
+  <circle cx="440" cy="370" r="4" fill="#4F46E5" />
+  <circle cx="480" cy="400" r="4" fill="#4F46E5" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="150" cy="150" r="30" fill="#EEF2FF" />
+  <circle cx="650" cy="450" r="40" fill="#EEF2FF" />
+  <circle cx="200" cy="500" r="25" fill="#EEF2FF" />
+  <circle cx="600" cy="200" r="20" fill="#EEF2FF" />
+  
+  <!-- Abstract Lines -->
+  <line x1="100" y1="200" x2="200" y2="250" stroke="#4F46E5" stroke-width="2" stroke-dasharray="5 5" />
+  <line x1="600" y1="300" x2="700" y2="350" stroke="#4F46E5" stroke-width="2" stroke-dasharray="5 5" />
+  <line x1="300" y1="100" x2="350" y2="50" stroke="#4F46E5" stroke-width="2" stroke-dasharray="5 5" />
+  <line x1="450" y1="550" x2="500" y2="500" stroke="#4F46E5" stroke-width="2" stroke-dasharray="5 5" />
+</svg> 
