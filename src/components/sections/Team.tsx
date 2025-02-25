@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -9,6 +9,7 @@ import { FaLinkedinIn, FaTwitter, FaGithub } from 'react-icons/fa';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
+import type { Swiper as SwiperInstance } from 'swiper';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -90,8 +91,7 @@ const teamMembers = [
 ];
 
 const Team = () => {
-  const swiperRef = useRef<any>(null);
-  const [activeIndex, setActiveIndex] = useState(0);
+  const swiperRef = useRef<SwiperInstance | null>(null);
 
   return (
     <section className="py-20 bg-white">
@@ -121,7 +121,6 @@ const Team = () => {
             onBeforeInit={(swiper) => {
               swiperRef.current = swiper;
             }}
-            onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
             className="team-swiper"
           >
             {teamMembers.map((member) => (

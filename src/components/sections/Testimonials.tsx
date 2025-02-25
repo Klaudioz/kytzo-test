@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
@@ -48,19 +48,19 @@ const Testimonials = () => {
   const [isAnimating, setIsAnimating] = useState(false);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  const nextTestimonial = () => {
+  const nextTestimonial = useCallback(() => {
     if (isAnimating) return;
     setIsAnimating(true);
     setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
     setTimeout(() => setIsAnimating(false), 500);
-  };
+  }, [isAnimating]);
 
-  const prevTestimonial = () => {
+  const prevTestimonial = useCallback(() => {
     if (isAnimating) return;
     setIsAnimating(true);
     setCurrentIndex((prevIndex) => (prevIndex - 1 + testimonials.length) % testimonials.length);
     setTimeout(() => setIsAnimating(false), 500);
-  };
+  }, [isAnimating]);
 
   useEffect(() => {
     // Auto-advance the carousel
@@ -71,7 +71,7 @@ const Testimonials = () => {
         clearInterval(intervalRef.current);
       }
     };
-  }, []);
+  }, [nextTestimonial]);
 
   const resetInterval = () => {
     if (intervalRef.current) {
@@ -98,7 +98,7 @@ const Testimonials = () => {
             What Our Clients Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our clients have to say about our platform.
+            Don&apos;t just take our word for it. Here&apos;s what our clients have to say about our platform.
           </p>
         </div>
 
@@ -118,7 +118,7 @@ const Testimonials = () => {
                 className="text-center"
               >
                 <p className="text-lg md:text-xl text-gray-700 mb-8 italic">
-                  "{testimonials[currentIndex].content}"
+                  &ldquo;{testimonials[currentIndex].content}&rdquo;
                 </p>
                 <div className="flex flex-col items-center">
                   <div className="w-16 h-16 rounded-full overflow-hidden mb-4 relative">

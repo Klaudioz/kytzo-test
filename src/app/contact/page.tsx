@@ -50,7 +50,7 @@ export default function Contact() {
                 Get in Touch
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Have questions about our platform or want to learn more? We'd love to hear from you.
+                Have questions about our platform or want to learn more? We&apos;d love to hear from you.
               </p>
             </motion.div>
           </div>
@@ -123,7 +123,7 @@ export default function Contact() {
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-2">Message Sent!</h3>
                 <p className="text-gray-600 mb-6">
-                  Thank you for reaching out. We'll get back to you as soon as possible.
+                  Thank you for reaching out. We&apos;ll get back to you as soon as possible.
                 </p>
                 <button
                   onClick={() => setIsSubmitted(false)}

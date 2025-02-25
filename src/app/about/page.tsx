@@ -21,7 +21,7 @@ export default function About() {
                 About Kytzo
               </h1>
               <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-                We're on a mission to revolutionize how businesses operate with innovative SaaS solutions.
+                We&apos;re on a mission to revolutionize how businesses operate with innovative SaaS solutions.
               </p>
             </motion.div>
           </div>
@@ -43,10 +43,10 @@ export default function About() {
                 Founded in 2018, Kytzo began with a simple idea: to create software that makes businesses more efficient and effective. Our founders, with decades of experience in technology and business operations, saw a gap in the market for truly intuitive, powerful SaaS solutions.
               </p>
               <p className="text-gray-600 mb-4">
-                What started as a small team working out of a garage has grown into a global company serving thousands of businesses across various industries. Despite our growth, we've maintained our core values of innovation, customer-centricity, and excellence in everything we do.
+                What started as a small team working out of a garage has grown into a global company serving thousands of businesses across various industries. Despite our growth, we&apos;ve maintained our core values of innovation, customer-centricity, and excellence in everything we do.
               </p>
               <p className="text-gray-600">
-                Today, Kytzo is recognized as a leader in the SaaS industry, continuously pushing the boundaries of what's possible with cloud-based software solutions.
+                Today, Kytzo is recognized as a leader in the SaaS industry, continuously pushing the boundaries of what&apos;s possible with cloud-based software solutions.
               </p>
             </motion.div>
             <motion.div
@@ -96,7 +96,7 @@ export default function About() {
             >
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Innovation</h3>
               <p className="text-gray-600">
-                We constantly push the boundaries of what's possible, embracing new technologies and approaches to solve complex business challenges.
+                We constantly push the boundaries of what&apos;s possible, embracing new technologies and approaches to solve complex business challenges.
               </p>
             </motion.div>
             <motion.div
